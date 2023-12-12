@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "150627545487",
+    "firebase_url": "https://station-72ff8-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "station-72ff8",
+    "storage_bucket": "station-72ff8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150627545487:android:1b6a46209d39a056581bfa",
+        "android_client_info": {
+          "package_name": "com.company.MeteoStation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwGMb_m0YbuymJurMwXLkCHqrloacj2x0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150627545487:android:b26fa1da73506909581bfa",
+        "android_client_info": {
+          "package_name": "com.example.meteostation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwGMb_m0YbuymJurMwXLkCHqrloacj2x0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

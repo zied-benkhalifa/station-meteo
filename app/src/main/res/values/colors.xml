@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorBackground">#F4F4F4</color>
+    <color name="colorBackgroundDark">#262626</color>
+
+    <!-- Couleurs de texte -->
+    <color name="colorText">#333333</color>
+    <color name="colorTextLight">#666666</color>
+
+    <!-- Couleurs d'accent -->
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccentDark">#D81B60</color>
+
+    <!-- Couleurs de bouton -->
+    <color name="colorButton">#2196F3</color>
+    <color name="colorButtonDark">#1565C0</color>
+
+    <!-- Autres couleurs -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryLight">#C5CAE9</color>
+    <color name="textColorHighlight">#FFD54F</color>
+    <color name="shadowColor">#6A1B9A</color>
+</resources>

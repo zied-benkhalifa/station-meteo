@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/backgroud">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="meteoStation"
+    android:textSize="45dp"
+    android:layout_marginTop="20dp"
+    android:textColor="#FFFFFFFF"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/t1"
+    android:textStyle="bold"
+
+    />
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/i1"
+        android:layout_below="@+id/t1"
+        android:layout_centerHorizontal="true"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:src="@drawable/meteo"
+        />
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/i1"
+        android:text="BMP280"
+        android:drawableLeft="@drawable/baseline_grain_24"
+        android:layout_marginTop="60dp"
+        android:textColor="#FF000000"
+        android:textStyle="bold"
+        android:backgroundTint="#FFCDDC39"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/b1"
+        android:text="dht11"
+        android:drawableLeft="@drawable/baseline_cloud_24"
+        android:layout_marginTop="5dp"
+        android:textColor="#FF000000"
+        android:textStyle="bold"
+        android:backgroundTint="#FFCDDC39"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/b2"
+        android:text="dht22"
+        android:drawableLeft="@drawable/baseline_wb_sunny_24"
+        android:layout_marginTop="5dp"
+        android:textColor="#FF000000"
+        android:textStyle="bold"
+        android:backgroundTint="#FFCDDC39"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/b3"
+        android:text="comparaison"
+        android:layout_marginTop="5dp"
+        android:textColor="#FF000000"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/baseline_difference_24"
+        android:backgroundTint="#FFCDDC39"
+        android:textSize="20sp" />
+
+</RelativeLayout>
